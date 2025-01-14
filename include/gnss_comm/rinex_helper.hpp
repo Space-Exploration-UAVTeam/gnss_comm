@@ -29,8 +29,8 @@
 #include <time.h>
 #include <glog/logging.h>
 
-#include "gnss_constant.hpp"
-#include "gnss_utility.hpp"
+#include "gnss_comm/gnss_constant.hpp"
+#include "gnss_comm/gnss_utility.hpp"
 
 namespace gnss_comm
 {

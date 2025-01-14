@@ -22,7 +22,7 @@
 #define GNSS_SPS_HPP_
 
 #include <eigen3/Eigen/Dense>
-#include "gnss_constant.hpp"
+#include "gnss_comm/gnss_constant.hpp"
 
 namespace gnss_comm
 {

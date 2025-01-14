@@ -3,6 +3,7 @@
 **Authors/Maintainers:** CAO Shaozu (shaozu.cao AT gmail.com)
 
 The *gnss_comm* package contains basic definitions and utility functions for GNSS raw measurement processing. 
+* No Docker
 
 ## 1. Prerequisites
 
