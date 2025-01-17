@@ -38,7 +38,10 @@ ament_target_dependencies(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME}  ${GLOG_LIBRARIES})
 
 install(
-  DIRECTORY include/ DESTINATION share/${PROJECT_NAME})
+  DIRECTORY include/
+  DESTINATION include
+)
+
 install(
   TARGETS ${PROJECT_NAME} 
   ARCHIVE DESTINATION lib
@@ -49,5 +52,7 @@ ament_export_dependencies(std_msgs)
 ament_export_dependencies(gnss_comm_interfaces)
 ament_export_include_directories(${INCLUDE_DIRS})
 ament_export_libraries(${PROJECT_NAME})
+
+ament_export_include_directories(include)
 
 ament_package()

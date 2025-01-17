@@ -33,13 +33,12 @@
 #include <gnss_comm_interfaces/msg/gnss_time_pulse_info_msg.hpp>
 #include <gnss_comm_interfaces/msg/stamped_float64_array.hpp>
 
-using namespace gnss_comm_interfaces::msg;
-
 #include "gnss_constant.hpp"
 #include "gnss_utility.hpp"
 
 namespace gnss_comm
 {
+    using namespace gnss_comm_interfaces::msg;
     /* convert Ephem struct to ros message ---------------------------------------
      * args   : Ephem &  ephem      I   Ephemeris
      * return : cooresponding ephemeris message

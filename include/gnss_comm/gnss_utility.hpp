@@ -42,6 +42,7 @@
 #include <cmath>
 #include <time.h>
 #include <eigen3/Eigen/Dense>
+#define GLOG_USE_GLOG_EXPORT
 #include <glog/logging.h>
 
 #include "gnss_constant.hpp"
