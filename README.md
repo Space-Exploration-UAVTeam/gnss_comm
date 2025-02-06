@@ -56,4 +56,4 @@ Any suggestions on Docker will be seen.
 ## 4. Acknowledgements
 Many of the definitions and utility functions in this package are adapted from [RTKLIB](http://www.rtklib.com/).
 
-Most of the definitions and utility functions in this package are adapted from [HKUST-Aerial-Robotics/gnss_comm](https://github.com/HKUST-Aerial-Robotics/gnss_comm).
+All of the definitions and utility functions in this package are adapted from [HKUST-Aerial-Robotics/gnss_comm](https://github.com/HKUST-Aerial-Robotics/gnss_comm).
