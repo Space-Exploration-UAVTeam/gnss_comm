@@ -1,7 +1,7 @@
 # gnss_comm for ROS2
 [**The original README file of this project is here.**](README_old.md)
 
-**All changes made are shown in bold or pre-stated.**`
+**All changes made are shown in bold or pre-stated.**
 
 **Authors/Maintainers:** CAO Shaozu (shaozu.cao AT gmail.com)
 
